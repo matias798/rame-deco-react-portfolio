@@ -8,7 +8,7 @@ const LastProduct = ({lastProduct}) => {
 			</div>
 			<h5>{lastProduct.title}</h5>
 			<p>{lastProduct.summary}</p>
-			<a target="_blank" rel="nofollow" href="http://localhost:3001/api/products/last">Visualizar la información completa del producto</a>
+			<a target="_blank" rel="nofollow" href="https://ramedecoo.herokuapp.com/api/products/last">Visualizar la información completa del producto</a>
 		</div>
     );
 }

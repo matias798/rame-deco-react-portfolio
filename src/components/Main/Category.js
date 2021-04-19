@@ -14,7 +14,7 @@ class Category extends React.Component{
     //traigo la api products y capturo el objeto countByCategory convirtiendolo en array
    
     componentDidMount () {
-        fetch('http://localhost:3001/api/products')
+        fetch('https://ramedecoo.herokuapp.com/api/products')
 			.then(res => res.json())
 			.then(products => {
 				this.setState({
@@ -56,7 +56,7 @@ class Category extends React.Component{
             <div>
                 
 			</div>
-                <a target="_blank" rel="nofollow" href="http://localhost:3001/products">Ir a Productos - APP</a> 
+                <a target="_blank" rel="nofollow" href="https://ramedecoo.herokuapp.com/products">Ir a Productos - APP</a> 
             </div>          
         );
      }
