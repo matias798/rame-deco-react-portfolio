@@ -23,7 +23,7 @@ class Main extends Component {
 
 	componentDidMount () {
 		console.log("Me acabo de renderizar");
-		fetch('https://ramedecoo.herokuapp.com/api/products')
+		fetch('https://ramedeco.herokuapp.com/api/products')
 			.then(res => res.json())
 			.then(products => {
 				this.setState({
@@ -37,7 +37,7 @@ class Main extends Component {
 				console.log(e);
 			})
 
-		fetch('https://ramedecoo.herokuapp.com/api/users')
+		fetch('https://ramedeco.herokuapp.com/api/users')
 			.then(res => res.json())
 			.then(users => {
 				this.setState({
@@ -50,7 +50,7 @@ class Main extends Component {
 			})
 
 
-		fetch('https://ramedecoo.herokuapp.com/api/products/last')
+		fetch('https://ramedeco.herokuapp.com/api/products/last')
 			.then(res => res.json())
 			.then(last => {
 				this.setState({

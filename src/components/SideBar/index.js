@@ -13,7 +13,7 @@ class SideBar extends React.Component {
 
 	componentDidMount () {
 		console.log('Me acabo de renderizar');
-		fetch('https://ramedecoo.herokuapp.com/api/connection')
+		fetch('https://ramedeco.herokuapp.com/api/connection')
 			.then(res => res.json())
 			.then(({categories}) => {
 				this.setState({categories})
