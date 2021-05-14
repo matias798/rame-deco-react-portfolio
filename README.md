@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Rame deco React dashboard
 
-![Screenshot_2021-04-06 Corporate Dashboard - Admin](https://user-images.githubusercontent.com/58121395/113719701-49bfe000-96c4-11eb-83c2-47d0823dee54.png)
+![rameDecoReact](https://user-images.githubusercontent.com/58121395/118299196-d2495180-b4b6-11eb-92a5-4ba7f71a58e7.png)
+
+Proyecto de rame deco en react js el cual es un panel de administrador que consume api propia.
 
 ## Available Scripts
 
