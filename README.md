@@ -1,7 +1,11 @@
-# Rame deco 
+# Rame deco React proyecto final se encuentra en el sprint_8
+
+[rameDecoReact](https://user-images.githubusercontent.com/58121395/118298720-37e90e00-b4b6-11eb-8216-2c9e2762eb64.png)
+
+#### sitio web: "https://rame-deco-react-portfolio.herokuapp.com"!
 
 Proyecto del grupo 9 usando react.js y utilizando apis del repo "https://github.com/ezequielRiveros/Grupo_9_Rame_Deco"
-
+ 
 ## Available Scripts
 
 En este proyecto puedes usar:
